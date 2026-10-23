@@ -10,6 +10,7 @@
     { "source": "/api/produtos", "destination": "/api/obter-produtos" },
     { "source": "/api/pastas", "destination": "/api/obter-pastas" },
     { "source": "/api/jogos", "destination": "/api/obter-jogos" },
-    { "source": "/api/tipos-si", "destination": "/api/obter-tipos-si" }
+    { "source": "/api/tipos-si", "destination": "/api/obter-tipos-si" },
+    { "source": "/api/abordagens-inovadoras", "destination": "/api/obter-abordagens-inovadoras" }
   ]
 }

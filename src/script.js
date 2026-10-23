@@ -247,6 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 1.8 CARREGAR VÍDEOS (mesmo layout para os vídeos sobre tipos de SI)
   carregarVideos("/api/videos", "videos", "vid");
   carregarVideos("/api/tipos-si", "tipos-si", "tsi");
+  carregarVideos("/api/abordagens-inovadoras","abordagens","abord");
   function carregarVideos(api, nome, pref) {
     const gridVideos = document.getElementById(`grid-${nome}`);
     if (gridVideos) {
